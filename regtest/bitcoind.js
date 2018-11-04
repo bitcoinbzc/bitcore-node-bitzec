@@ -26,7 +26,7 @@ var coinbasePrivateKey;
 var privateKey = bitcore.PrivateKey();
 var destKey = bitcore.PrivateKey();
 
-describe('Zcashd Functionality', function() {
+describe('Bitzecd Functionality', function() {
 
   before(function(done) {
     this.timeout(60000);
@@ -60,10 +60,10 @@ describe('Zcashd Functionality', function() {
         log.error('error="%s"', err.message);
       });
 
-      log.info('Waiting for Zcash to initialize...');
+      log.info('Waiting for Bitzec to initialize...');
 
       bitcoind.start(function() {
-        log.info('Zcashd started');
+        log.info('Bitzecd started');
 
         client = new BitcoinRPC({
           protocol: 'http',
