@@ -46,7 +46,7 @@
   "dependencies": {
     "async": "^2.5.0",
     "bitcoind-rpc": "^0.6.0",
-    "bitcore-lib-bitzec": "bitzec/bitcore-lib-bitzec",
+    "bitcore-lib-bitzec": "git://github.com/TheTrunk/bitcore-lib-bitzec#master",
     "body-parser": "^1.18.3",
     "colors": "^1.1.2",
     "commander": "^2.8.1",
