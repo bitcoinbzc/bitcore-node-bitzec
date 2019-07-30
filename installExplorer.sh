@@ -51,16 +51,16 @@ cat << EOF > bitcore-node.json
         "datadir": "./data",
         "exec": "../bitzecd",
         "rpcqueue": 1000,
-        "rpcport": 8732,
-        "zmqpubrawtx": "tcp://127.0.0.1:28732",
-        "zmqpubhashblock": "tcp://127.0.0.1:28732"
+        "rpcport": 8232,
+        "zmqpubrawtx": "tcp://127.0.0.1:28332",
+        "zmqpubhashblock": "tcp://127.0.0.1:28332"
       }
     },
     "insight-api": {
         "routePrefix": "api",
                  "db": {
                    "host": "127.0.0.1",
-                   "port": "18732",
+                   "port": "27017",
                    "database": "zcash-api-livenet",
                    "user": "",
                    "password": ""
@@ -83,9 +83,9 @@ txindex=1
 addressindex=1
 timestampindex=1
 spentindex=1
-zmqpubrawtx=tcp://127.0.0.1:28732
-zmqpubhashblock=tcp://127.0.0.1:28732
-rpcport=8732
+zmqpubrawtx=tcp://127.0.0.1:28332
+zmqpubhashblock=tcp://127.0.0.1:28332
+rpcport=8232
 rpcallowip=127.0.0.1
 rpcuser=bitzec
 rpcpassword=mybzcpassword
