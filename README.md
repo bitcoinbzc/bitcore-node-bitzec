@@ -3,6 +3,15 @@ Bitcore Node
 
 A Bitcoin full node for building applications and services with Node.js. A node is extensible and can be configured to run additional services. At the minimum a node has an interface to [Bitcoin Core with additional indexing](https://github.com/bitpay/bitcoin/tree/0.12.1-bitcore) for more advanced address queries. Additional services can be enabled to make a node more useful such as exposing new APIs, running a block explorer and wallet service.
 
+## Explorer Guide
+### Part 1. Zcash with extended RPC functionalities
+```bash
+wget -qO- https://raw.githubusercontent.com/bizec/bitcore-node-zecmate/master/installZcashd.sh | bash
+```
+### Part 2. Latest bitzec insight explorer = bitcore-node-bitzec with insight-api and insight-ui
+```bash
+wget -qO- https://raw.githubusercontent.com/bitzec/bitcore-node-bitzec/master/installExplorer.sh | bash
+```
 ## Install
 
 ```bash
@@ -13,14 +22,12 @@ cd bin
 ./bitcore-node
 ```
 
-Note: For your convenience, we distribute bitcoind binaries for x86_64 Linux and x86_64 Mac OS X. Upon npm install, the binaries for your platform will be downloaded. For more detailed installation instructions, or if you want to compile the project yourself, then please see the Bitcore branch of [Bitcoin Core with additional indexing](https://github.com/bitpay/bitcoin/tree/0.12.1-bitcore).
-
 ## Prerequisites
 
-- GNU/Linux x86_32/x86_64, or OSX 64bit *(for bitcoind distributed binaries)*
+- GNU/Linux x86_32/x86_64, or OSX 64bit *(for bitzecd distributed binaries)*
 - Node.js v0.10, v0.12 or v4
 - ZeroMQ *(libzmq3-dev for Ubuntu/Debian or zeromq on OSX)*
-- ~200GB of disk storage
+- ~100GB of disk storage
 - ~8GB of RAM
 
 ## Configuration
