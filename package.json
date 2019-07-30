@@ -1,8 +1,7 @@
 {
   "name": "bitcore-node-bitzec",
-  "description": "Full node with extended capabilities using Bitcore and Bitzec",
-  "author": "BitPay <dev@bitpay.com>",
-  "version": "3.1.2",
+  "description": "Full node with extended capabilities using Bitcore and Zcash",
+  "version": "3.2.0",
   "main": "./index.js",
   "repository": "git://github.com/bitzec/bitcore-node-bitzec.git",
   "homepage": "https://github.com/bitzec/bitcore-node-bitzec",
@@ -45,10 +44,10 @@
     "bitzecd"
   ],
   "dependencies": {
-    "async": "^1.3.0",
+    "async": "^2.5.0",
     "bitcoind-rpc": "^0.6.0",
     "bitcore-lib-bitzec": "bitzec/bitcore-lib-bitzec",
-    "body-parser": "^1.13.3",
+    "body-parser": "^1.18.3",
     "colors": "^1.1.2",
     "commander": "^2.8.1",
     "errno": "^0.1.4",
