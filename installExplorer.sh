@@ -18,7 +18,7 @@ sudo service mongod start
 
 #bitcore-node-bitzec
 cd
-git clone https://github.com/ZECmate/bitcore-node-bitzec
+git clone https://github.com/bitzec/bitcore-node-bitzec
 cd bitcore-node-bitzec
 npm install
 cd bin
