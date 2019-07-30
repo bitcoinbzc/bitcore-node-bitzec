@@ -102,8 +102,8 @@ EOF
 
 cd ..
 cd node_modules
-git clone -b bitzec https://github.com/bitzec/insight-api-bitzec
-git clone -b bitzec https://github.com/bitzec/insight-ui-bitzec
+git clone  https://github.com/bitzec/insight-api-bitzec
+git clone  https://github.com/bitzec/insight-ui-bitzec
 cd insight-api-bitzec
 npm install
 cd ..
