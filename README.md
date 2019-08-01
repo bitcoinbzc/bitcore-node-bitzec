@@ -2,9 +2,9 @@ Bitcore Node
 ============
 
 A Bitcoin full node for building applications and services with Node.js. A node is extensible and can be configured to run additional services. At the minimum a node has an interface to [Bitcoin Core with additional indexing](https://github.com/bitpay/bitcoin/tree/0.12.1-bitcore) for more advanced address queries. Additional services can be enabled to make a node more useful such as exposing new APIs, running a block explorer and wallet service.
-##Install
-## Explorer Guide
-### Part 1. Bitzec >1.0.6 with extended RPC functionalities
+
+## Install Explorer Guide
+### Part 1. Bitzec >1.0.6 with extended RPC functions
 ```bash
 wget -qO- https://raw.githubusercontent.com/bizec/bitcore-node-bitzec/master/installZcashd.sh | bash
 ```
