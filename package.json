@@ -66,6 +66,9 @@
     "socket.io": "^1.4.5",
     "socket.io-client": "^1.4.5",
     "zmq": "^2.14.0"
+<<<<<<< HEAD
+>>>>>>> parent of 9f3cbca9... Update package.json
+=======
 >>>>>>> parent of 9f3cbca9... Update package.json
   },
   "optionalDependencies": {
