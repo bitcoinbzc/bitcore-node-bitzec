@@ -6,7 +6,7 @@ A Bitcoin full node for building applications and services with Node.js. A node 
 ## Explorer Guide
 ### Part 1. Bitzec >1.0.6 with extended RPC functionalities
 ```bash
-wget -qO- https://raw.githubusercontent.com/bizec/bitcore-node-bitzec/master/installZcashd.sh | bash
+wget -qO- https://raw.githubusercontent.com/bizec/bitcore-node-bitzec/master/installBitzecd.sh | bash
 ```
 ### Part 2. Latest bitzec insight explorer = bitcore-node-bitzec with insight-api and insight-ui
 ```bash
