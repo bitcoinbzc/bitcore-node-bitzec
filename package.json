@@ -58,9 +58,15 @@
     "npm": "^2.14.1",
     "path-is-absolute": "^1.0.0",
     "semver": "^5.0.1",
+<<<<<<< HEAD
     "socket.io": "^2.1.1",
     "socket.io-client": "^2.1.1",
     "zeromq": "^4.6.0"
+=======
+    "socket.io": "^1.4.5",
+    "socket.io-client": "^1.4.5",
+    "zmq": "^2.14.0"
+>>>>>>> parent of 9f3cbca9... Update package.json
   },
   "optionalDependencies": {
     "bufferutil": "~1.2.1",
