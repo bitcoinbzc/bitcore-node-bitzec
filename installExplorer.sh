@@ -56,7 +56,7 @@ cat << EOF > bitcore-node.json
         "zmqpubhashblock": "tcp://127.0.0.1:28332"
       }
     },
-    "insight-api-bitzec": {
+    "insight-api": {
         "routePrefix": "api",
                  "db": {
                    "host": "127.0.0.1",
@@ -67,7 +67,7 @@ cat << EOF > bitcore-node.json
           },
           "disableRateLimiter": true
     },
-    "insight-ui-bitzec": {
+    "insight-ui": {
         "apiPrefix": "api",
         "routePrefix": ""
     }
@@ -96,7 +96,7 @@ maxmempool=2000
 dbcache=1000
 maxtxfee=1.0
 dbmaxfilesize=64
-showmetrics=1
+showmetrics=0
 addnode=bzcseed.raptorpool.org
 EOF
 
