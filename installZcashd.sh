@@ -10,7 +10,7 @@ sudo apt-get install \
 # zcashBitcore
 cd
 git clone https://github.com/bitzec/bitzec
-cd bitzec
+cd zcashInsight
 ./zcutil/fetch-params.sh
 ./zcutil/build.sh --disable-tests -j$(nproc)
 cd
